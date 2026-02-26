@@ -22,6 +22,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    accenture,
   } from "../assets";
   
   export const navLinks = [
@@ -164,6 +165,19 @@ import {
         "Diligently reviewed and optimized existing code, elevating its quality and efficiency.",
         "Nurtured AI bot's capabilities by fine-tuning its responses, offering diverse sample prompts, and meticulously crafting solutions across an array of computer science domains.",
         "Contributed to fostering a more proficient and knowledgeable AI model through hands-on training and refining its interactive capabilities.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Accenture",
+      icon: accenture, 
+      iconBg: "#1e293b", 
+      date: "April 2024 - November 2025", 
+      points: [
+        "Engineered and optimized Python automation scripts to streamline ETL pipelines, facilitating data synchronization across distributed systems (Workday, Alight, Lincoln).",
+        "Developed complex SQL queries and transformation logic within the automation framework (UAC) to improve data accuracy and reduce manual intervention.",
+        "Resolved critical system bottlenecks and data anomalies by implementing code-level fixes and performance tuning, significantly improving application stability.",
+        "Collaborated in Agile sprints (JIRA) to deliver backend feature enhancements and bug fixes, focusing on pipeline efficiency and scalable data architecture.",
       ],
     },
   ];

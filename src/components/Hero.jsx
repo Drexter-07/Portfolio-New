@@ -121,14 +121,14 @@ const Hero = () => {
       ref={heroRef}
       className="relative w-full h-screen flex items-center justify-center bg-primary overflow-hidden"
     >
-      {/* Background Blobs */}
+      {/* Background Blobs (Generative AI Feel) */}
       <div
         ref={bgBlob1}
-        className="absolute top-10 left-10 w-72 h-72 rounded-full bg-purple-500 opacity-20 blur-3xl"
+        className="absolute top-1/4 left-1/4 w-80 h-80 rounded-full bg-accent-2 opacity-30 blur-[100px] animate-pulse"
       ></div>
       <div
         ref={bgBlob2}
-        className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-blue-500 opacity-20 blur-3xl"
+        className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-accent-1 opacity-20 blur-[120px] animate-pulse"
       ></div>
 
       {/* Content */}
@@ -138,13 +138,13 @@ const Hero = () => {
         {/* Text */}
         <div className="flex flex-row items-start gap-5">
           <div className="flex flex-col justify-center items-center mt-5">
-            <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-            <div ref={decoRef} className="w-1 sm:h-80 h-40 violet-gradient" />
+            <div className="w-5 h-5 rounded-full bg-accent-1 shadow-[0_0_15px_rgba(14,165,233,0.8)]" />
+            <div ref={decoRef} className="w-1 sm:h-80 h-40 bg-gradient-to-b from-accent-1 to-transparent" />
           </div>
           <div>
             <h1
               ref={headingRef}
-              className={`${styles.heroHeadText} text-transparent bg-clip-text bg-gradient-to-r from-[#915eff] to-[#6EE7B7] animate-gradient`}
+              className={`${styles.heroHeadText} text-transparent bg-clip-text bg-gradient-to-r from-accent-1 to-accent-2 animate-gradient drop-shadow-[0_0_15px_rgba(14,165,233,0.5)]`}
             >
               Hi, I'm Sahil
             </h1>
@@ -168,7 +168,7 @@ const Hero = () => {
             src={myPhoto}
             alt="Sahil - Software Developer"
             loading="lazy"
-            className="profile-photo w-60 h-60 rounded-full object-cover border-4 border-[#915eff] shadow-lg transition-all duration-500 hover:shadow-[0_0_25px_#915eff]"
+            className="profile-photo w-60 h-60 rounded-full object-cover border-4 border-accent-1 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_35px_rgba(14,165,233,0.8)]"
           />
         </div>
       </div>

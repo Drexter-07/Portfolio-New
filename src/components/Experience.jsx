@@ -15,8 +15,8 @@ import { experiences } from "../constants";
 
 const ExperienceCard=({experience})=>(
   <VerticalTimelineElement
-  contentStyle={{ background: '#1d1836', color: '#fff'}}
-  contentArrowStyle={{borderRight:'7px solid #232631'}}
+  contentStyle={{ background: 'rgba(30, 41, 59, 0.7)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255, 255, 255, 0.05)', color: '#fff'}}
+  contentArrowStyle={{borderRight:'7px solid rgba(30, 41, 59, 0.7)'}}
   date={experience.date}
   iconStyle={{background: experience.iconBg}}
 

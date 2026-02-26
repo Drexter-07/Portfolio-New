@@ -16,7 +16,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         tiltMaxAngleY={45}
         scale={1}
         transitionSpeed={450}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="glassmorphism p-5 rounded-2xl sm:w-[360px] w-full border border-white/10 hover:shadow-[0_0_20px_rgba(14,165,233,0.4)] transition-all duration-300"
       >
         <div className='relative w-full h-[230px]'>
           <img
