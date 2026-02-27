@@ -18,8 +18,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    documind,
+    aifitness,
     tripguide,
     threejs,
     accenture,
@@ -116,7 +116,7 @@ import {
       company_name: "Future Ready Talent (Microsoft)",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Sep 2021 - Feb 2022",
+      date: "Sep 2021 - Jan 2022",
       points: [
         "Exploring diverse Azure technologies, including:",
         "Azure Bot Service, Web App Bot, QnA Maker, API App Services",
@@ -159,7 +159,7 @@ import {
       company_name: "Scale AI",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "June 2023 - Present",
+      date: "June 2023 - Jan 2024",
       points: [
         "Orchestrated comprehensive AI training by formulating intricate problem-solving methodologies and offering elucidative solutions and coding problem editorials.",
         "Diligently reviewed and optimized existing code, elevating its quality and efficiency.",
@@ -228,50 +228,46 @@ import {
   
   const projects = [
     {
-      name: "Decentralized AirBNB",
+      name: "DocumindRAG",
       description:
-        "Decentralised alternative for AirBNB. Smart contract to store the details of rentals and handle purchase of any new bookings on the blockchain.",
+        "A sleek knowledge base dashboard for the DocuMind RAG system. Features automatic PDF uploading, chunking, and embedding to manage the documents the AI utilizes for generating accurate context.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "solidity",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "Google Maps API",
+          name: "gen ai",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/Drexter-07/AIRBNB-Clone",
+      image: documind,
+      source_code_link: "https://github.com/Drexter-07/DocumindRAG",
     },
     {
-      name: "SkillBlock",
+      name: "AI Fitness Tracker",
       description:
-        "A DAO which helps both the public to search and hire nearest laborers/helpers and also the workmen/helpers to register themselves on the site to get rewarded for their service.",
+        "A vibrant health and wellness dashboard that tracks sleep patterns, daily steps, calories, and workouts. It provides AI-powered, personalized insights and weight-adjusted progress calculations.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "ipfs",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "solidity",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "polygon",
+          name: "artificial intelligence",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/Drexter-07/SkillBlock",
+      image: aifitness,
+      source_code_link: "https://github.com/Drexter-07/AI-Fitness-Tracker",
     },
     {
       name: "3D-Portfolio",

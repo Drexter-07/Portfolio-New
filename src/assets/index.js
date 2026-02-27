@@ -27,8 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import accenture from "./company/accenture.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import documind from "./documind.png";
+import aifitness from "./aifitness.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,7 +57,7 @@ export {
   starbucks,
   tesla,
   accenture,
-  carrent,
-  jobit,
+  documind,
+  aifitness,
   tripguide,
 };
