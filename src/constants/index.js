@@ -23,6 +23,7 @@ import {
     tripguide,
     threejs,
     accenture,
+    qna,
   } from "../assets";
   
   export const navLinks = [
@@ -270,25 +271,25 @@ import {
       source_code_link: "https://github.com/Drexter-07/AI-Fitness-Tracker",
     },
     {
-      name: "3D-Portfolio",
+      name: "Private RAG Assistant",
       description:
-        "3D developer portfolio showcasing my skills in Software Engineering using technologies for immersive graphics, TailwindCSS for styling and Framer Motion for animations.",
+        "A private Retrieval-Augmented Generation (RAG) assistant that allows users to upload documents and ask questions grounded in their personal knowledge base.",
       tags: [
         {
-          name: "3JS",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "react three fiber",
+          name: "tailwind sql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind css",
+          name: "langchain",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://3d-portfolio-sahil.vercel.app/",
+      image: qna,
+      source_code_link: "https://github.com/Drexter-07/-Private-Knowledge-Q-A-RAG-",
     },
   ];
   

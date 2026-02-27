@@ -30,6 +30,7 @@ import accenture from "./company/accenture.svg";
 import documind from "./documind.png";
 import aifitness from "./aifitness.png";
 import tripguide from "./tripguide.png";
+import qna from "./qna.png";
 
 export {
   logo,
@@ -60,4 +61,5 @@ export {
   documind,
   aifitness,
   tripguide,
+  qna,
 };
